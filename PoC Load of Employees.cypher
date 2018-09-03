@@ -19,6 +19,6 @@ LOAD CSV WITH HEADERS FROM
 'file:///Employees.csv' AS line
 WITH line
 
-MATCH (per:Person {AV_PID:line:AV_PID})
+MATCH (per:Person {AV_PID,line:AV_PID})
 CREATE (occ:Main_Occupation {Occupation:line:OCCUPATION})
 MERGE (per)-[:HAS_OCCUPATION_OF]->(occ)
