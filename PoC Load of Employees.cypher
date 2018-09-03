@@ -19,6 +19,16 @@ LOAD CSV WITH HEADERS FROM
 'file:///Employees.csv' AS line
 WITH line
 
-MATCH (per:Person {AV_PID,line:AV_PID})
-CREATE (occ:Main_Occupation {Occupation:line:OCCUPATION})
+MATCH (per:Person {AV_PID,line.AV_PID})
+CREATE (occ:Main_Occupation {Occupation:line.OCCUPATION})
 MERGE (per)-[:HAS_OCCUPATION_OF]->(occ)
+
+#Load legal name
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///Employees.csv' AS line
+WITH line
+
+MATCH (per:Person {AV_PID:line.AV_PID})
+MERGE (name:Name {Title:line.TITLE, Given_Name:line.GIVEN_NAME, Family_name:line.FAMILY_NAME})
+CREATE (per)-[:HAS_LEGAL_NAME]->(name)
