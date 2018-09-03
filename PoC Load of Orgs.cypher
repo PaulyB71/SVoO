@@ -12,9 +12,7 @@ LOAD CSV WITH HEADERS FROM
 'file:///Megafile.csv' AS line
 WITH line
 
-CREATE (org:Limited_Company {AV_ID:line.AV_ID, Registered_Name:line.NAME, Legal_Status:line.LEGSTAT, Trading_Status:"Active", Is_Employer:CASE UPPER(line.EMPLOYER) WHEN 'Y' THEN true ELSE false END, Is_Marketable:CASE UPPER(line.MAILABLE) WHEN 'Y' THEN true ELSE false END, Website:line.URL})
-
-//CREATE (org:Limited_Company {AV_ID:line.AV_ID, Registered_Name:line.NAME, Legal_Status:line.LEGSTAT, Trading_Status:"Active", Is_Employer:UPPER(line.EMPLOYER), Is_Marketable:UPPER(line.MAILABLE)})
+CREATE (org:Limited_Company {AV_ID:line.AV_ID, Trading_Name:line.NAME, Legal_Status:line.LEGSTAT, Trading_Status:"Active", Is_Employer:CASE UPPER(line.EMPLOYER) WHEN 'Y' THEN true ELSE false END, Is_Marketable:CASE UPPER(line.MAILABLE) WHEN 'Y' THEN true ELSE false END, Website:line.URL})
 
 MERGE (exn:Experian_Number {Number:line.PH_CO})
 
@@ -22,8 +20,8 @@ MERGE (crn:Company_Registration_Number {Number:line.CRN, Date_of_Incorporation:l
 
 MERGE (jur:Jusrisdiction {Name:line.DTIREGION})
 
-CREATE (org)-[:IS_IDENTIFIED_BY {Validated:"Y"}]->(exn)
-CREATE (org)-[:IS_IDENTIFIED_BY {Validated:"N"}]->(crn)
+CREATE (org)-[:IS_IDENTIFIED_BY {Validated:true}]->(exn)
+CREATE (org)-[:IS_IDENTIFIED_BY {Validated:false}]->(crn)
 CREATE (org)-[:OPERATES_TO_THE_LAWS_OF]->(jur)
 ;
 
@@ -57,7 +55,7 @@ WITH line
 
 MATCH (org:Limited_Company {AV_ID:line.AV_ID})
 CREATE (add:UK_Structured_Address {Address_Line_1:line.AD1, Address_Line_2:line.AD2, Address_Line_3:line.AD3, Address_line_4:line.AD4, Address_Line_5:line.AD5, Post_Town:line.TOWN, Postcode:line.POSTCODE})
-MERGE (org)-[:HAS_CORRESPONDANCE_ADDRESS_OF]->(add)
+MERGE (org)-[:HAS_CORRESPONDANCE ADDRESS OF]->(add)
 ;
 
 //Add Phone Numbers

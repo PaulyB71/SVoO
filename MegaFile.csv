@@ -1,36 +1,36 @@
 AV_ID,PH_CO,CRN,DTIREGION,LEGSTAT,CO_BORNYR,UKSIC07_1,NAME,AD1,AD2,AD3,AD4,AD5,TOWN,COUNTY,COUNTRY,POSTCODE,PHONE,URL,MAILABLE,EMPLOYER
-AVCO101,gbr904171699,3536163,England and Wales,Pri/Ltd by Guar (NSC),27/03/1998,9329,Hampton Canoe Club Ltd,52 Ashgrove Road,,,,,ASHFORD,Middlesex,gbr,TW15 1PJ,,,y,y
-AVCO102,gbr904172487,3531393,England and Wales,Pri/Ltd by Guar (NSC),20/03/1998,85590,Whitefield Development Trust,Whitefield Schools & Centre,MacDonald Road,Walthamstow,,,LONDON,,gbr,E17 4AZ,+44 20 8531 3426,,y,y
-AVCO103,gbr904169793,3526978,England and Wales,Pri/Ltd by Guar (NSC),13/03/1998,68320,Wards Farm Management Company,5 Wards Farm Greenmore,Woodcote,,,,READING,,gbr,RG8 0RB,,,n,y
-AVCO104,gbr904171758,3520264,England and Wales,Pri/Ltd by Guar (NSC),02/03/1998,8899,Action Station South Tyneside Ltd,85-91 Boldon Lane,,,,,SOUTH SHIELDS,Tyne and Wear,gbr,NE34 0AS,+44 191 455 8122,www.actionstation.org.uk,y,y
-AVCO105,gbr904155279,3522986,England and Wales,Pri/Ltd by Guar (NSC),01/01/1997,8899,Tamil Relief Centre,Community House,311 Fore Street,,,,LONDON,,gbr,N9 0PZ,+44 20 8373 6249,www.trcuk.org,y,y
-AVCO106,gbr904172360,3532799,England and Wales,Pri/Ltd by Guar (NSC),23/03/1998,1722,Sanitation First Ltd,Limpley Mill,Lower Stoke,Limpley Stoke,,,BATH,,gbr,BA2 7FJ,,www.sanitationfirst.org,y,y
-AVCO107,gbr904158890,3523463,England and Wales,Pri/Ltd by Guar (NSC),06/03/1998,98000,Thistledown Management Company Ltd,Larkspur Cottage,2 Thistledown Vale,The Drive,Ifold,Loxwood,BILLINGSHURST,West Sussex,gbr,RH14 0TN,,,y,y
-AVCO108,gbr904171774,3536538,England and Wales,Pri/Ltd by Guar (NSC),06/10/1988,88100,West Indian Self Effort Social Care & Education Project Ltd,Alric Avenue,,,,,LONDON,,gbr,NW10 8RA,+44 20 8830 3337,www.wisesocialcare.org.uk,y,y
-AVCO109,gbr904164482,3520057,England and Wales,Pri/Ltd by Guar (NSC),02/03/1998,68209,2 Talbot Place Residents Ltd,2 Talbot Place,Blackheath,,,,LONDON,,gbr,SE3 0TZ,,,n,y
-AVCO110,gbr904173318,3538088,England and Wales,Pri/Ltd by Guar (NSC),31/03/1998,93290,Wimborne District Model Engineers,16A Burcombe Road,,,,,BOURNEMOUTH,,gbr,BH10 5JT,,,y,y
-AVCO111,gbr904170104,3539600,England and Wales,Priv Ltd Section 30,27/03/1998,3600,Water UK,36 Broadway,,,,,LONDON,,gbr,SW1H 0BH,+44 20 7344 1844,www.water.org.uk,y,y
-AVCO112,gbr904175789,3525629,England and Wales,Priv Ltd Section 30,11/03/1998,90010,York Minster Mystery Plays,Genesis5 Church Lane,Heslington,,,,YORK,,gbr,YO10 5DQ,,,n,y
-AVCO113,gbr904155237,3531443,England and Wales,Priv Ltd Section 30,01/03/1993,93110,Tameside Sports Trust,Active Ken Ward,,,,,HYDE,Cheshire,gbr,SK14 3NL,+44 161 366 5545,www.activetameside.com,y,y
-AVCO114,gbr904174021,3524013,England and Wales,Priv Ltd Section 30,04/03/1998,94990,Women of The Year,Brewers' Hall,Aldermanbury Square,,,,LONDON,,gbr,EC2V 7HR,,,n,y
-AVCO115,gbr904155253,3525708,England and Wales,Priv Ltd Section 30,11/03/1998,98000,Tame View Management Company Ltd,The Maltings Hyde Hall Farm,Sandon,,,,BUNTINGFORD,Hertfordshire,gbr,SG9 0RU,,,n,y
-AVCO116,gbr904172520,3521521,England and Wales,Priv Ltd Section 30,04/03/1998,90010,Whitehaven Theatre Group Trust,93 Calder Avenue,,,,,WHITEHAVEN,Cumbria,gbr,CA28 8AT,,www.whitehavenphotos.com,y,y
+AVCO101,gbr904171699,03536163,England and Wales,Pri/Ltd by Guar (NSC),27/03/1998,9329,Hampton Canoe Club Ltd,52 Ashgrove Road,,,,,ASHFORD,Middlesex,gbr,TW15 1PJ,,,y,y
+AVCO102,gbr904172487,03531393,England and Wales,Pri/Ltd by Guar (NSC),20/03/1998,85590,Whitefield Development Trust,Whitefield Schools & Centre,MacDonald Road,Walthamstow,,,LONDON,,gbr,E17 4AZ,+44 20 8531 3426,,y,y
+AVCO103,gbr904169793,03526978,England and Wales,Pri/Ltd by Guar (NSC),13/03/1998,68320,Wards Farm Management Company,5 Wards Farm Greenmore,Woodcote,,,,READING,,gbr,RG8 0RB,,,n,y
+AVCO104,gbr904171758,03520264,England and Wales,Pri/Ltd by Guar (NSC),02/03/1998,8899,Action Station South Tyneside Ltd,85-91 Boldon Lane,,,,,SOUTH SHIELDS,Tyne and Wear,gbr,NE34 0AS,+44 191 455 8122,www.actionstation.org.uk,y,y
+AVCO105,gbr904155279,03522986,England and Wales,Pri/Ltd by Guar (NSC),01/01/1997,8899,Tamil Relief Centre,Community House,311 Fore Street,,,,LONDON,,gbr,N9 0PZ,+44 20 8373 6249,www.trcuk.org,y,y
+AVCO106,gbr904172360,03532799,England and Wales,Pri/Ltd by Guar (NSC),23/03/1998,1722,Sanitation First Ltd,Limpley Mill,Lower Stoke,Limpley Stoke,,,BATH,,gbr,BA2 7FJ,,www.sanitationfirst.org,y,y
+AVCO107,gbr904158890,03523463,England and Wales,Pri/Ltd by Guar (NSC),06/03/1998,98000,Thistledown Management Company Ltd,Larkspur Cottage,2 Thistledown Vale,The Drive,Ifold,Loxwood,BILLINGSHURST,West Sussex,gbr,RH14 0TN,,,y,y
+AVCO108,gbr904171774,03536538,England and Wales,Pri/Ltd by Guar (NSC),06/10/1988,88100,West Indian Self Effort Social Care & Education Project Ltd,Alric Avenue,,,,,LONDON,,gbr,NW10 8RA,+44 20 8830 3337,www.wisesocialcare.org.uk,y,y
+AVCO109,gbr904164482,03520057,England and Wales,Pri/Ltd by Guar (NSC),02/03/1998,68209,2 Talbot Place Residents Ltd,2 Talbot Place,Blackheath,,,,LONDON,,gbr,SE3 0TZ,,,n,y
+AVCO110,gbr904173318,03538088,England and Wales,Pri/Ltd by Guar (NSC),31/03/1998,93290,Wimborne District Model Engineers,16A Burcombe Road,,,,,BOURNEMOUTH,,gbr,BH10 5JT,,,y,y
+AVCO111,gbr904170104,03539600,England and Wales,Priv Ltd Section 30,27/03/1998,3600,Water UK,36 Broadway,,,,,LONDON,,gbr,SW1H 0BH,+44 20 7344 1844,www.water.org.uk,y,y
+AVCO112,gbr904175789,03525629,England and Wales,Priv Ltd Section 30,11/03/1998,90010,York Minster Mystery Plays,Genesis5 Church Lane,Heslington,,,,YORK,,gbr,YO10 5DQ,,,n,y
+AVCO113,gbr904155237,03531443,England and Wales,Priv Ltd Section 30,01/03/1993,93110,Tameside Sports Trust,Active Ken Ward,,,,,HYDE,Cheshire,gbr,SK14 3NL,+44 161 366 5545,www.activetameside.com,y,y
+AVCO114,gbr904174021,03524013,England and Wales,Priv Ltd Section 30,04/03/1998,94990,Women of The Year,Brewers' Hall,Aldermanbury Square,,,,LONDON,,gbr,EC2V 7HR,,,n,y
+AVCO115,gbr904155253,03525708,England and Wales,Priv Ltd Section 30,11/03/1998,98000,Tame View Management Company Ltd,The Maltings Hyde Hall Farm,Sandon,,,,BUNTINGFORD,Hertfordshire,gbr,SG9 0RU,,,n,y
+AVCO116,gbr904172520,03521521,England and Wales,Priv Ltd Section 30,04/03/1998,90010,Whitehaven Theatre Group Trust,93 Calder Avenue,,,,,WHITEHAVEN,Cumbria,gbr,CA28 8AT,,www.whitehavenphotos.com,y,y
 AVCO117,gbr904168413,NI033782,Northern Ireland,Priv Ltd Section 30,04/03/1998,9499,The Village Garden (Broughshane) Ltd,Broughshane House,70 Main Street,Broughshane,,,BALLYMENA,County Antrim,gbr,BT42 4JW,+44 28 2586 2777,www.nacn.org,y,y
-AVCO118,gbr904155019,3536243,England and Wales,Priv Ltd Section 30,27/03/1998,85520,The Arts Depot Trust Ltd,Tally House Corner,5 Nether Street,,,,LONDON,,gbr,N12 0GA,+44 20 8369 5454,www.artsdepot.co.uk,y,y
-AVCO119,gbr904155048,3531821,England and Wales,Priv Ltd Section 30,20/03/1998,68320,Talygarn Mews Management Ltd,7 Talygarn Mews,Talygarn,,,,PONTYCLUN,Mid Glamorgan,gbr,CF72 9JT,,,n,y
-AVCO120,gbr904175138,3526286,England and Wales,Priv Ltd Section 30,12/03/1998,88100,The Wychwoods Day Centre Ltd,Boundary House Shipton Road,Ascott-Under-Wychwood,,,,CHIPPING NORTON,Oxfordshire,gbr,OX7 6AF,,,y,y
-AVCO121,gbr904176072,3530844,England and Wales,Private Limited,19/03/1998,86101,Zammit Consultancy Services Ltd,Marshland,Wellgreen Lane,Kingston,,,LEWES,East Sussex,gbr,BN7 3NP,,,y,y
-AVCO122,gbr904176476,3532496,England and Wales,Private Limited,23/03/1998,6209,Zip Imagesetters Ltd,33 Church Street,,,,,ROMSEY,Hampshire,gbr,SO51 8BT,+44 1794 514333,www.zipimagesetters.com,y,y
-AVCO123,gbr904175949,3528899,England and Wales,Private Limited,17/03/1998,59113,Youth FM Ltd,West Barn Manor Lane,Oare Hermitage,,,,THATCHAM,Berkshire,gbr,RG18 9SB,,,n,y
+AVCO118,gbr904155019,03536243,England and Wales,Priv Ltd Section 30,27/03/1998,85520,The Arts Depot Trust Ltd,Tally House Corner,5 Nether Street,,,,LONDON,,gbr,N12 0GA,+44 20 8369 5454,www.artsdepot.co.uk,y,y
+AVCO119,gbr904155048,03531821,England and Wales,Priv Ltd Section 30,20/03/1998,68320,Talygarn Mews Management Ltd,7 Talygarn Mews,Talygarn,,,,PONTYCLUN,Mid Glamorgan,gbr,CF72 9JT,,,n,y
+AVCO120,gbr904175138,03526286,England and Wales,Priv Ltd Section 30,12/03/1998,88100,The Wychwoods Day Centre Ltd,Boundary House Shipton Road,Ascott-Under-Wychwood,,,,CHIPPING NORTON,Oxfordshire,gbr,OX7 6AF,,,y,y
+AVCO121,gbr904176072,03530844,England and Wales,Private Limited,19/03/1998,86101,Zammit Consultancy Services Ltd,Marshland,Wellgreen Lane,Kingston,,,LEWES,East Sussex,gbr,BN7 3NP,,,y,y
+AVCO122,gbr904176476,03532496,England and Wales,Private Limited,23/03/1998,6209,Zip Imagesetters Ltd,33 Church Street,,,,,ROMSEY,Hampshire,gbr,SO51 8BT,+44 1794 514333,www.zipimagesetters.com,y,y
+AVCO123,gbr904175949,03528899,England and Wales,Private Limited,17/03/1998,59113,Youth FM Ltd,West Barn Manor Lane,Oare Hermitage,,,,THATCHAM,Berkshire,gbr,RG18 9SB,,,n,y
 AVCO124,gbr904175965,SC183965,Scotland,Private Limited,18/03/1998,43342,Ythan Glazing Ltd,Unit 19,Castle Street,Castlepark Industrial Estate,,,ELLON,Aberdeenshire,gbr,AB41 9RF,+44 1358 722010,www.ythan-glazing.co.uk,y,y
-AVCO126,gbr904175952,3526522,England and Wales,Private Limited,12/03/1998,68209,Ystwyth Investment Properties Ltd,Ystwyth Works,Llanfarian,,,,ABERYSTWYTH,Dyfed,gbr,SY23 4NN,,,n,y
-AVCO127,gbr904176229,3533607,England and Wales,Private Limited,24/03/1998,82990,Zenetar Ltd,Ramsbury House,Charnham Lane,,,,HUNGERFORD,Berkshire,gbr,RG17 0EY,,,n,y
-AVCO128,gbr904175923,3527187,England and Wales,Private Limited,13/03/1998,61100,Low Cost Calls Ltd,Wellington Lodge Chancery Mews,,,,,BROMSGROVE,Worcestershire,gbr,B60 2DH,,,n,y
-AVCO130,gbr904176098,3532933,England and Wales,Private Limited,01/02/1984,8790,Z & M Care Ltd,2-12 Lyndhurst Road,,,,,HOVE,East Sussex,gbr,BN3 6FA,+44 1273 323814,www.lyndhurstcarehomes.co.uk,y,y
-AVCO132,gbr904120082,3534374,England and Wales,Private Unlimited,25/03/1998,70221,PM Financial Consultancy Unlimited,Midway House Herrick Way,Staverton Technology Park,Staverton,,,CHELTENHAM,Gloucestershire,gbr,GL51 6TQ,,,n,y
-AVCO133,gbr904112696,3525111,England and Wales,Private Unlimited,11/03/1998,70100,Wengen-Five,55 Baker Street,,,,,LONDON,,gbr,W1U 7EU,,,n,y
-AVCO134,gbr904157624,3526053,England and Wales,Private Unlimited,12/03/1998,64302,Sijoto,Genesis 5 Church Lane,Heslington,,,,YORK,,gbr,YO10 5DQ,,,n,y
-AVCO135,gbr904118580,3537649,England and Wales,Private Unlimited,25/03/1998,74990,Pilkington Investments (No 1) Company,European Technical Centre Hall Lane,Lathom,,,,ORMSKIRK,Lancashire,gbr,L40 5UF,,,n,y
-AVCO138,gbr904108143,3522766,England and Wales,Private Unlimited,06/03/1998,64304,The Nothing Ventured Nothing Gained Company,Meliora House Houghton Lane,Bury,,,,PULBOROUGH,West Sussex,gbr,RH20 1PD,,,n,y
-AVCO144,gbr904149094,3524909,England and Wales,Public Limited Company,10/03/1998,82990,Pearl Group Holdings (No 1) Ltd,Juxon House,100 St Pauls Churchyard,,,,LONDON,,gbr,EC4M 8BU,,www.britannic.co.uk,n,y
-AVCO146,gbr904114764,3533430,England and Wales,Public Limited Company,24/03/1998,41100,Ansgate PLC,Lynton House,7-12 Tavistock Square,,,,LONDON,,gbr,WC1H 9BQ,,,n,y
+AVCO126,gbr904175952,03526522,England and Wales,Private Limited,12/03/1998,68209,Ystwyth Investment Properties Ltd,Ystwyth Works,Llanfarian,,,,ABERYSTWYTH,Dyfed,gbr,SY23 4NN,,,n,y
+AVCO127,gbr904176229,03533607,England and Wales,Private Limited,24/03/1998,82990,Zenetar Ltd,Ramsbury House,Charnham Lane,,,,HUNGERFORD,Berkshire,gbr,RG17 0EY,,,n,y
+AVCO128,gbr904175923,03527187,England and Wales,Private Limited,13/03/1998,61100,Low Cost Calls Ltd,Wellington Lodge Chancery Mews,,,,,BROMSGROVE,Worcestershire,gbr,B60 2DH,,,n,y
+AVCO130,gbr904176098,03532933,England and Wales,Private Limited,01/02/1984,8790,Z & M Care Ltd,2-12 Lyndhurst Road,,,,,HOVE,East Sussex,gbr,BN3 6FA,+44 1273 323814,www.lyndhurstcarehomes.co.uk,y,y
+AVCO132,gbr904120082,03534374,England and Wales,Private Unlimited,25/03/1998,70221,PM Financial Consultancy Unlimited,Midway House Herrick Way,Staverton Technology Park,Staverton,,,CHELTENHAM,Gloucestershire,gbr,GL51 6TQ,,,n,y
+AVCO133,gbr904112696,03525111,England and Wales,Private Unlimited,11/03/1998,70100,Wengen-Five,55 Baker Street,,,,,LONDON,,gbr,W1U 7EU,,,n,y
+AVCO134,gbr904157624,03526053,England and Wales,Private Unlimited,12/03/1998,64302,Sijoto,Genesis 5 Church Lane,Heslington,,,,YORK,,gbr,YO10 5DQ,,,n,y
+AVCO135,gbr904118580,03537649,England and Wales,Private Unlimited,25/03/1998,74990,Pilkington Investments (No 1) Company,European Technical Centre Hall Lane,Lathom,,,,ORMSKIRK,Lancashire,gbr,L40 5UF,,,n,y
+AVCO138,gbr904108143,03522766,England and Wales,Private Unlimited,06/03/1998,64304,The Nothing Ventured Nothing Gained Company,Meliora House Houghton Lane,Bury,,,,PULBOROUGH,West Sussex,gbr,RH20 1PD,,,n,y
+AVCO144,gbr904149094,03524909,England and Wales,Public Limited Company,10/03/1998,82990,Pearl Group Holdings (No 1) Ltd,Juxon House,100 St Pauls Churchyard,,,,LONDON,,gbr,EC4M 8BU,,www.britannic.co.uk,n,y
+AVCO146,gbr904114764,03533430,England and Wales,Public Limited Company,24/03/1998,41100,Ansgate PLC,Lynton House,7-12 Tavistock Square,,,,LONDON,,gbr,WC1H 9BQ,,,n,y
