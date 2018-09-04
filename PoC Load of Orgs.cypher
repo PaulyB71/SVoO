@@ -46,6 +46,7 @@ MATCH (class:Classification {Code:line.UKSIC07_1})
 MATCH (org:Limited_Company {AV_ID:line.AV_ID})
 MERGE (org)-[:IS_CLASSIFIED_AS]->(class)
 ;
+
 //Add Addresses
 
 USING PERIODIC COMMIT
@@ -55,7 +56,7 @@ WITH line
 
 MATCH (org:Limited_Company {AV_ID:line.AV_ID})
 CREATE (add:UK_Structured_Address {Address_Line_1:line.AD1, Address_Line_2:line.AD2, Address_Line_3:line.AD3, Address_line_4:line.AD4, Address_Line_5:line.AD5, Post_Town:line.TOWN, Postcode:line.POSTCODE})
-MERGE (org)-[:HAS_CORRESPONDANCE ADDRESS OF]->(add)
+MERGE (org)-[:HAS_CORRESPONDANCE_ADDRESS_OF]->(add)
 ;
 
 //Add Phone Numbers
@@ -63,8 +64,11 @@ MERGE (org)-[:HAS_CORRESPONDANCE ADDRESS OF]->(add)
 USING PERIODIC COMMIT
 LOAD CSV WITH HEADERS FROM
 'file:///Megafile.csv' AS line
-WITH line
 
+WITH line
+WHERE NOT line.PHONE IS NULL
+MERGE (pn:Phone_Number {Standardised_Phone_Number:line.PHONE})
+
+WITH pn, line
 MATCH (org:Limited_Company {AV_ID:line.AV_ID})
-MERGE (pn.Phone_Number {Standardised_Phone_Number:line.PHONE})
 CREATE (org)-[:IS_CONTACTABLE_BY]->(pn)

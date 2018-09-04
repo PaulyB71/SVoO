@@ -1,4 +1,5 @@
 CREATE CONSTRAINT ON (p:Person) ASSERT p.AV_PID IS UNIQUE;
+CREATE CONSTRAINT ON (i:Government_Identifier) ASSERT (i.Identifier, i.Type) IS NODE KEY
 
 #Load employees
 
@@ -19,7 +20,7 @@ LOAD CSV WITH HEADERS FROM
 'file:///Employees.csv' AS line
 WITH line
 
-MATCH (per:Person {AV_PID,line.AV_PID})
+MATCH (per:Person {AV_PID:line.AV_PID})
 CREATE (occ:Main_Occupation {Occupation:line.OCCUPATION})
 MERGE (per)-[:HAS_OCCUPATION_OF]->(occ)
 
@@ -32,3 +33,15 @@ WITH line
 MATCH (per:Person {AV_PID:line.AV_PID})
 MERGE (name:Name {Title:line.TITLE, Given_Name:line.GIVEN_NAME, Family_name:line.FAMILY_NAME})
 CREATE (per)-[:HAS_LEGAL_NAME]->(name)
+
+#Load NI Numbers
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM
+'file:///Employees.csv' AS line
+WITH line
+
+WHERE NOT line.NI_NO IS NULL 
+MERGE (ident:Government_Identifier {Identifier:line.NI_NO, Type:"NI_Number"})
+WITH line, ident 
+MATCH (per:Person {AV_PID:line.AV_PID})
+CREATE (per)-[:IS_IDENTIFIED_BY]->(ident)

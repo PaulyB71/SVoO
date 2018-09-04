@@ -1,0 +1,98 @@
+<Message>
+	<Scheme>
+		<Org>
+			<AV_ID>AVCO101</AV_ID>
+			<CH_NO>03536163</CH_NO>
+			<Client>
+				<Host>Unisure</Host>
+				<ClientId>UNCO102</ClientId>
+			</Client>
+			<Contract>
+				<Code>UN1234</Code>
+				<Name>Companies Scheme</Name>
+				<Product>Group Pension</Product>
+				<Role>Owner</Role>
+			</Contract>
+		</Org>
+	</Scheme>
+	<Policy>
+		<Person>
+			<AV_PID>AVP0101</AV_PID>
+			<NI_NO>CL010101A</NI_NO>
+			<Client>
+				<Host>Unisure</Host>
+				<ClientId>UNCO102PO101</ClientId>
+			</Client>
+			<Contract>
+				<Code>UN1234P0001</Code>
+				<Name>Companies Pension</Name>
+				<Product>Group Pension</Product>
+				<Role>Policyholder</Role>
+			</Contract>
+		</Person>
+	</Policy>
+	<Policy>
+		<Person>
+			<AV_PID>AVP0102</AV_PID>
+			<NI_NO>CL010102A</NI_NO>
+			<Client>
+				<Host>Unisure</Host>
+				<ClientId>UNCO102PO102</ClientId>
+			</Client>
+			<Contract>
+				<Code>UN1234P0002</Code>
+				<Name>Companies Pension</Name>
+				<Product>Group Pension</Product>
+				<Role>Policyholder</Role>
+			</Contract>
+		</Person>
+	</Policy>
+	<Policy>
+		<Person>
+			<AV_PID>AVP0103</AV_PID>
+			<NI_NO>CL010103A</NI_NO>
+			<Client>
+				<Host>Unisure</Host>
+				<ClientId>UNCO102PO103</ClientId>
+			</Client>
+			<Contract>
+				<Code>UN1234P0003</Code>
+				<Name>Companies Pension</Name>
+				<Product>Group Pension</Product>
+				<Role>Policyholder</Role>
+			</Contract>
+		</Person>
+	</Policy>
+	<Policy>
+		<Person>
+			<AV_PID>AVP0104</AV_PID>
+			<NI_NO>CL010104A</NI_NO>
+			<Client>
+				<Host>Unisure</Host>
+				<ClientId>UNCO102PO104</ClientId>
+			</Client>
+			<Contract>
+				<Code>UN1234P0004</Code>
+				<Name>Companies Pension</Name>
+				<Product>Group Pension</Product>
+				<Role>Policyholder</Role>
+			</Contract>
+		</Person>
+	</Policy>
+	<Policy>
+		<Person>
+			<AV_PID>AVP0105</AV_PID>
+			<NI_NO>CL010105A</NI_NO>
+			<Client>
+				<Host>Unisure</Host>
+				<ClientId>UNCO102PO105</ClientId>
+			</Client>
+			<Contract>
+				<Code>UN1234P0005</Code>
+				<Name>Companies Pension</Name>
+				<Product>Group Pension</Product>
+				<Role>Policyholder</Role>
+			</Contract>
+		</Person>
+	</Policy>
+</Message>
