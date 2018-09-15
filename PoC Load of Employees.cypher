@@ -1,5 +1,7 @@
 CREATE CONSTRAINT ON (p:Person) ASSERT p.AV_PID IS UNIQUE;
 CREATE CONSTRAINT ON (i:Government_Identifier) ASSERT (i.Identifier, i.Type) IS NODE KEY
+CREATE CONSTRAINT ON (s:Host_ID) ASSERT (s.ID, s.Host) IS NODE KEY
+
 
 #Load employees
 

@@ -72,3 +72,4 @@ MERGE (pn:Phone_Number {Standardised_Phone_Number:line.PHONE})
 WITH pn, line
 MATCH (org:Limited_Company {AV_ID:line.AV_ID})
 CREATE (org)-[:IS_CONTACTABLE_BY]->(pn)
+;
